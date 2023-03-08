@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+
+html, body {
+    background: linear-gradient(63.44deg, #171311 0%, #282219 99.62%);
+    font-family: Manrope, 'sans-serif';
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    margin-top: 70px;
+    margin-left: 120px;
+    padding: 0px;
+    gap: 80px;
+}
+
+.lamp-img {
+    position: absolute;
+    width: 630px;
+    height: 820px;
+    right: 120px;
+    bottom: 90px;
+    background: url('../assets/lampImage.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.highlighted {
+    color: #BF8F55;
+}
+
+.intorudction_text {
+    margin-left: 120px;
+    margin-top: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 26px;
+    color: #fff;
+}
+
+.intorudction_text h2 {
+    margin: 0;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 83px;
+}
+
+.find_lamp_button {
+    background: transparent;
+    display: flex;
+    align-items: center;
+    padding: 10px 18px;
+    gap: 12px;
+    border: 1px solid #BF8F55;
+    border-radius: 36px;
+}
